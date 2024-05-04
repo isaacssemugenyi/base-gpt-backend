@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  application:
+    container_name: chat-api
+    # image: chat-api
+    image: isaacssemugenyi/carpedia-api:20.0.2
+    # build: ./
+    ports:
+      - 4000:3000
